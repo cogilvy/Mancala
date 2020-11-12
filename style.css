@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  border: solid black 1px;
+  padding: 5px;
+  text-align: center;
+}
+
+.main-board {
+  display: flex;
+}
+
+.pit-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.pit {
+  border-radius: 40%;
+}
+
+.well {
+  height: 10vh;
+  border-radius: 40%; 
+}
+
+.on {
+  border-color: red;
+  border-
+}
